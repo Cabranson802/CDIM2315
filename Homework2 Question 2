@@ -1,0 +1,32 @@
+namespace Homework2_2;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Please input the first number: ");
+        int number1 = Convert.ToInt16(Console.ReadLine());
+    
+        Console.WriteLine("Please input the second number: ");
+        int number2 = Convert.ToInt16(Console.ReadLine());
+   
+        Console.WriteLine("Please input the third number: ");
+        int number3 = Convert.ToInt16(Console.ReadLine());
+
+        if(number1<number2)
+        {
+            if(number1<number3){
+                Console.WriteLine($"The smallest number is: {number1}");
+            }
+            else{
+                Console.WriteLine($"The smallest number is: {number3}");
+            }
+        }
+        else{ 
+            if(number2<number3){
+                Console.WriteLine($"The smallest number is: {number2}");
+            }
+            else{
+                Console.WriteLine($"The smallest number is: {number3}");
+    }
+        }
