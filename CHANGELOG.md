@@ -6,4 +6,5 @@
 01/29/2022:
 Uploaded Homework Code question 1
 Uploaded homework Code question 2
-
+02/05/2024
+Upload Homework 3 code questions 1-3
